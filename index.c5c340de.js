@@ -3,17 +3,17 @@
       <a href='#' id='${e}' class="card-link">
       <picture>
                     <source srcset="
-                    https://image.tmdb.org/t/p/w780${t} 1x,
-                   https://image.tmdb.org/t/p/original${t} 2x" media="(min-width: 1280px)" type="image/jpeg" />
+                    https://image.tmdb.org/t/p/w780/${t} 1x,
+                   https://image.tmdb.org/t/p/original/${t} 2x" media="(min-width: 1280px)" type="image/jpeg" />
                     <source srcset="
-                    https://image.tmdb.org/t/p/w342${t} 1x,
-                    https://image.tmdb.org/t/p/w500${t} 2x" media="(min-width: 768px)" type="image/jpeg" />
+                    https://image.tmdb.org/t/p/w342/${t} 1x,
+                    https://image.tmdb.org/t/p/w500/${t} 2x" media="(min-width: 768px)" type="image/jpeg" />
                     <source srcset="
-                    https://image.tmdb.org/t/p/w185${t} 1x,
-                    https://image.tmdb.org/t/p/w342${t} 2x" media="(max-width: 480px)" type="image/jpeg" />
+                    https://image.tmdb.org/t/p/w185/${t} 1x,
+                    https://image.tmdb.org/t/p/w342/${t} 2x" media="(max-width: 480px)" type="image/jpeg" />
          <img id="${e}
           loading="lazy"
-          src="https://image.tmdb.org/t/p/w342${t}"
+          src="https://image.tmdb.org/t/p/w342/${t}"
           alt="${a}"
           class="card-set__img "/>
       </picture>
@@ -25,4 +25,4 @@
       </a>
       </li>
       `}).join("");(0,c.addToHTML)(t)}p.searchForm.addEventListener("submit",m),(0,g.pagination).on("afterMove",async e=>{let a=e.page;if(u){let a=e.page;t.page=a,await f()}else(0,c.onPaginLoadMore)(a)}),r("8vUUN")}();
-//# sourceMappingURL=index.2fdc3ff8.js.map
+//# sourceMappingURL=index.c5c340de.js.map
