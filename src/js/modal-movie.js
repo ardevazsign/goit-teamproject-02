@@ -76,7 +76,7 @@ export function renderModalOneFilm(modalFilm) {
   let poster_path;
   if (path === null || path === undefined) {
     
-    poster_path = 'IfB9hy4JH1eH6HEfIgIGORXi5h.jpg';
+    poster_path = '/IfB9hy4JH1eH6HEfIgIGORXi5h.jpg';
     
   } else {
     poster_path = path;
@@ -102,7 +102,7 @@ export function renderModalOneFilm(modalFilm) {
                     https://image.tmdb.org/t/p/w342/${poster_path} 2x" media="(max-width: 480px)" type="image/jpeg" />
         <img
           class="film-card__image"
-          src="https://image.tmdb.org/t/p/w342${poster_path}"
+          src="https://image.tmdb.org/t/p/w342/${poster_path}"
           alt="film"
         />
                 </picture>

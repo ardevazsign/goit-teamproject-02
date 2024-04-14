@@ -85,7 +85,7 @@ export function filmCheckImgUrl(dataForModify) {
       poster_path === ''
     ) {
       
-      result.poster_path = 'IfB9hy4JH1eH6HEfIgIGORXi5h.jpg';
+      result.poster_path = '/IfB9hy4JH1eH6HEfIgIGORXi5h.jpg';
       // return result;
     }
     if (
