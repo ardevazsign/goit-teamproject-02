@@ -12,6 +12,17 @@ body {
 #library #tui-pagination-container {
   display: none;
 }
+
+// @media (min-width: 330px) and (max-width: 769px) {
+//   .footer {
+//     display: block;
+//   }
+
+//   .footer-container {
+//     display: block;
+//   }
+// }
+
 .container {
   width: 100%;
   min-width: 320px;
