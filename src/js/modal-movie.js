@@ -92,17 +92,17 @@ export function renderModalOneFilm(modalFilm) {
         <div class="film-card__image-block">
         <picture>
                     <source srcset="
-                    https://image.tmdb.org/t/p/w780${poster_path} 1x,
-                    https://image.tmdb.org/t/p/original${poster_path} 2x" media="(min-width: 1280px)" type="image/jpeg" />
+                    https://image.tmdb.org/t/p/w780/${poster_path} 1x,
+                    https://image.tmdb.org/t/p/original/${poster_path} 2x" media="(min-width: 1280px)" type="image/jpeg" />
                     <source srcset="
-                    https://image.tmdb.org/t/p/w342${poster_path} 1x,
-                    https://image.tmdb.org/t/p/w500${poster_path} 2x" media="(min-width: 768px)" type="image/jpeg" />
+                    https://image.tmdb.org/t/p/w342/${poster_path} 1x,
+                    https://image.tmdb.org/t/p/w500/${poster_path} 2x" media="(min-width: 768px)" type="image/jpeg" />
                     <source srcset="
-                    https://image.tmdb.org/t/p/w185${poster_path} 1x,
-                    https://image.tmdb.org/t/p/w342${poster_path} 2x" media="(max-width: 480px)" type="image/jpeg" />
+                    https://image.tmdb.org/t/p/w185/${poster_path} 1x,
+                    https://image.tmdb.org/t/p/w342/${poster_path} 2x" media="(max-width: 480px)" type="image/jpeg" />
         <img
           class="film-card__image"
-          src="https://image.tmdb.org/t/p/w342${poster_path}"
+          src="https://image.tmdb.org/t/p/w342/${poster_path}"
           alt="film"
         />
                 </picture>
