@@ -76,7 +76,7 @@ export function renderModalOneFilm(modalFilm) {
   let poster_path;
   if (path === null || path === undefined) {
     
-    poster_path = '/IfB9hy4JH1eH6HEfIgIGORXi5h.jpg';
+    poster_path = 'IfB9hy4JH1eH6HEfIgIGORXi5h.jpg';
     
   } else {
     poster_path = path;
