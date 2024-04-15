@@ -39,3 +39,43 @@ p.footer__text:hover,
 p.footer__text:focus {
   color: var(--footer-text-color);
 }
+
+@media screen and (max-width: 330px ) {
+      .footer-container{
+        display: flex;
+       flex-direction: column;
+      }
+      .footer__first-element{
+        margin-bottom: 10px;
+      }
+      .footer__dev{
+        margin-left: -110px;
+        display: flex;
+      }
+      .footer__by{
+        margin-right: -150px;
+        position: relative;
+        top: -15px;
+        left: -10px;
+      }
+}
+@media screen and (max-width: 421px ) {
+      .footer-container{
+        display: flex;
+       flex-direction: column;
+      }
+      .footer__first-element{
+        margin-bottom: 10px;
+      }
+      .footer__dev{
+        margin-left: -110px;
+        display: flex;
+      }
+      .footer__by{
+        margin-right: -150px;
+        position: relative;
+        top: -15px;
+        left: -10px;
+      }
+}
+
